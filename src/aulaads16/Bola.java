@@ -10,20 +10,25 @@ package aulaads16;
  * @author boemo
  */
 public class Bola {
+
     private String cor;
     private int tamanho;
     private boolean cheia;
-    
-    void encher(){
-    cheia=true;}
-    void esvaziar(){
-    cheia=false;
+
+    void encher() {
+        cheia = true;
     }
-    void pintar(String cordabola){
-    cor=cordabola;
+
+    void esvaziar() {
+        cheia = false;
     }
-    void definirTamanho(int tam){
-    tamanho=tam;
+
+    void pintar(String cordabola) {
+        cor = cordabola;
+    }
+
+    void definirTamanho(int tam) {
+        tamanho = tam;
     }
 
     public void setCor(String cor) {
@@ -50,6 +55,4 @@ public class Bola {
         return cheia;
     }
 
-    
-    
 }

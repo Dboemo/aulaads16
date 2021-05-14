@@ -10,19 +10,21 @@ package aulaads16;
  * @author boemo
  */
 public class Pessoa {
+
     String nome;
     int Idade;
     Double altura;
 
-    void falar (String texto){
-        System.out.println(texto+"!!!");
+    void falar(String texto) {
+        System.out.println(texto + "!!!");
     }
-    void falar (String texto,boolean flag){
-        if (flag==true)
-    System.out.println(texto+"!!!"+Idade);
-        else 
-     System.out.println(texto+"!!!");       
+
+    void falar(String texto, boolean flag) {
+        if (flag == true) {
+            System.out.println(texto + "!!!" + Idade);
+        } else {
+            System.out.println(texto + "!!!");
+        }
     }
-  
- 
+
 }

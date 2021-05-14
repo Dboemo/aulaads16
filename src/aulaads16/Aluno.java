@@ -10,6 +10,7 @@ package aulaads16;
  * @author boemo
  */
 public class Aluno {
+
     String nome;
     int idade;
     String[] materiasFeitas;
