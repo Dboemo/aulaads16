@@ -11,7 +11,35 @@ package aulaads16;
  */
 public class Aluno {
 
-    String nome;
-    int idade;
-    String[] materiasFeitas;
+    private String nome;
+    private int idade;
+    private  String[] materiasFeitas;
+
+    public String[] getMateriasFeitas() {
+        return materiasFeitas;
+    }
+
+    public void setMateriasFeitas(String[] materiasFeitas) {
+        this.materiasFeitas = materiasFeitas;
+    }
+
+
+
+    public String getNome() {
+        return nome;
+    }
+
+    public void setNome(String nome) {
+        this.nome = nome;
+    }
+
+    public int getIdade() {
+        return idade;
+    }
+
+    public void setIdade(int idade) {
+        this.idade = idade;
+    }
+    
+    
 }

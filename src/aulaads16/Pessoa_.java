@@ -10,8 +10,41 @@ package aulaads16;
  * @author boemo
  */
 public class Pessoa_ {
-    String nome;
-    String sexo;
-    int idade;
-    long rg;
+    private String nome;
+    private String sexo;
+    private int idade;
+    private long rg;
+
+    public String getNome() {
+        return nome;
+    }
+
+    public void setNome(String nome) {
+        this.nome = nome;
+    }
+
+    public String getSexo() {
+        return sexo;
+    }
+
+    public void setSexo(String sexo) {
+        this.sexo = sexo;
+    }
+
+    public int getIdade() {
+        return idade;
+    }
+
+    public void setIdade(int idade) {
+        this.idade = idade;
+    }
+
+    public long getRg() {
+        return rg;
+    }
+
+    public void setRg(long rg) {
+        this.rg = rg;
+    }
+    
 }

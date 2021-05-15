@@ -25,4 +25,12 @@ public class Bicicleta {
     void aplicarFreios(int decremento) {
         velocidade = velocidade - decremento;
     }
+    void mostraNaTela (String texto){
+        System.out.println(texto);
+    }
+    void mostraTudoEmMaiusculo(String texto){
+        System.out.println(texto.toUpperCase());
+    }
+    
+    
 }
