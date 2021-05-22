@@ -35,6 +35,8 @@ this.CPF =CPF;
     }
 
     public void setNome(String nome) {
+        
+       
         this.nome = nome;
     }
 
@@ -43,6 +45,7 @@ this.CPF =CPF;
     }
 
     public void setCPF(String CPF) {
+        
         this.CPF = CPF;
     }
 
@@ -53,5 +56,10 @@ this.CPF =CPF;
     public void setFone(String fone) {
         this.fone = fone;
     }
-    
+    public boolean verificaCPF(String CPF){
+    if (CPF.equals("00000000000"))
+        return true;
+        else
+        return false;    
+    }
 }

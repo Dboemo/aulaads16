@@ -14,6 +14,12 @@ public class testAlunodoif {
         AlunoDoIf aluno01=new AlunoDoIf();
         aluno01.setNome("João");
         aluno01.setMatricula("202102058");
+        aluno01.setCPF("00000000000");
+        if(aluno01.verificaCPF(aluno01.getCPF()))
+            System.out.println("ok");
+        else 
+            System.out.println("Erro de cpf");
+        
     }
     
 }
