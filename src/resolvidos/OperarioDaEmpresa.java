@@ -17,6 +17,14 @@ public class OperarioDaEmpresa extends EmpregadoDaEmpresa {
     public void CalcularSalario(){
     this.setSalario(this.getSalario()+this.comissao);
     }
+
+    public Pessoa getDadosPessoais() {
+        return DadosPessoais;
+    }
+
+    public void setDadosPessoais(Pessoa DadosPessoais) {
+        this.DadosPessoais = DadosPessoais;
+    }
     
     
 }
