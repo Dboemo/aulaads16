@@ -17,9 +17,12 @@ public class Contador {
         this.cont = 0;
     }
 
-
     public Contador(int cont) {
         this.cont = cont;
+    }
+
+    public void zera() {
+        this.cont = 0;
     }
 
     public int getCont() {
@@ -31,6 +34,5 @@ public class Contador {
     public void incrementador() {
         this.cont++;
     }
-
 
 }
