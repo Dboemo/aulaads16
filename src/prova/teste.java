@@ -3,21 +3,21 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package exerccicios21052021;
+package prova;
 
 /**
  *
  * @author boemo
  */
-public class TesteContador {
-    
+public class teste {
     public static void main(String[] args) {
-        Contador C1=new Contador();
-        for (int i=0;i<10;i++){
-            C1.incrementador();
-            System.out.println("Valor : "+C1.getCont());
-        }
+        Funcionario pessoa01 = new Funcionario();
+       // pessoa01.mostra();
+        Gerente ger01 = new Gerente();
+        ger01.nome="Fulano";
+        ger01.CPF="6956595959";
+        ger01.Cargo="Gerente de vendas";
+        ger01.mostra();
         
     }
-    
 }
