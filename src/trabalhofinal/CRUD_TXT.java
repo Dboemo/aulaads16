@@ -17,7 +17,13 @@ import java.util.StringTokenizer;
 /**
  *
  * @author boemo
+ * CREAT
+ * READ
+ * UPDATE
+ * DELETE
  */
+
+
 public class CRUD_TXT {
 
     public static void main(String[] args) {
